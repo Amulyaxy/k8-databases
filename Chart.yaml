@@ -1,5 +1,6 @@
 apiVersion: v1
 name: mongodb
 version: 0.0.2 #this is chart version 
-description: this is customized hel chart for ngnix
+description: this is customized helm chart for ngnix
 appVersion: v1
+

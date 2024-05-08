@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: "amulya11/mongodb:{{ .Values.statefulset.imageVersion }}"
+        image: "amulya11/mongodb:{{ .values.statefulset.imageVersion }}"
         volumeMounts:
         - name: mongodb
           mountPath: /data/db

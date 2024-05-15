@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: cart
-        image: "Amulya11/cart:{{ .Values.deployment.imageVersion }}"
+        image: "amulya11/cart:{{ .Values.deployment.imageVersion }}"
         imagePullPolicy: Always
         resources:
           requests:

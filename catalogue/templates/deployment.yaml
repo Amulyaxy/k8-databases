@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: "joindevops/catalogue:{{ .Values.deployment.imageVersion }}"
+        image: "amulya11/catalogue:{{ .Values.deployment.imageVersion }}"
         imagePullPolicy: Always
         resources:
           requests:

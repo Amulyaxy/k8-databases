@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: shipping
-        image: "jAmulya11/shipping:{{ .Values.deployment.imageVersion }}"
+        image: "amulya11/shipping:{{ .Values.deployment.imageVersion }}"
         imagePullPolicy: Always
         resources:
           requests:
